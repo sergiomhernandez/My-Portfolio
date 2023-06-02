@@ -42,7 +42,7 @@ const About = () => {
             <div className='about-section__tab-contents'>
                     <div className='about-section__tab-content active' id='tab-0'>
                         <h3 className="about-tab__heading">
-                            <span>Sergio Hernandez</span> - Front End Developer
+                            <span>Sergio Hernandez</span> - Front-End Developer
                         </h3>
                         <h3 className="about-tab__heading mobile-heading">
                             <span>Sergio</span>

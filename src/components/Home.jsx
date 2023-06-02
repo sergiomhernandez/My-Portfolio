@@ -9,7 +9,7 @@ const Home = () => {
         <header id='home' className='flex h-screen w-full items-center justify-center bg-cover bg-center bg-no-repeat' style={{backgroundImage: `url(${Background})` }}>
             <div className='block bg-[#1a1f27] h-screen w-full opacity-80 absolute'></div>
             <section className='block z-[1] relative text-center'>
-                <h4 className='text-[#ffffff80] text-sm md:text-lg uppercase text-center tracking-[0.125em]'>Front end developer</h4>
+                <h4 className='text-[#ffffff80] text-sm md:text-lg uppercase text-center tracking-[0.125em]'>Front-end developer</h4>
                 <h1 className='text-white text-[32px] font-bold my-3 md:text-[52px] mx-auto px-4'>Sergio Hernandez</h1>
                 <p className="text-white text-sm md:text-lg max-w-screen-sm mt-0 mx-auto px-4 mb-[40px]">I’m a developer based in Dominican Republic, specializing in building elegant and performing web applications.</p>
                 <div>
