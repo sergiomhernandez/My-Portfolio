@@ -2,6 +2,7 @@ import React from 'react'
 import { BsFillPersonFill } from "react-icons/bs";
 import "./About.css"
 import { AiOutlineDownload } from "react-icons/ai";
+import Pdf from "../assets/resume.pdf";
 
 const About = () => {
   
@@ -62,7 +63,7 @@ const About = () => {
                 international brands to help improve conversion rates.
                         </p>
                         <div>
-                        <a href="./assets/sergiohernandezcv.pdf" target='_blank' className='border-2 py-[16px] px-[32px] rounded-[99px] uppercase tracking-[0.125em] border-teal-400 bg-transparent text-teal-400 hover:bg-teal-400 hover:text-white duration-300 ease-in-out text-[14px] flex items-center justify-center mx-auto my-0'>Download CV <AiOutlineDownload className='float-right ml-2 '/> 
+                        <a href={Pdf} target='_blank' rel='noopener noreferrer' className='border-2 py-[16px] px-[32px] rounded-[99px] uppercase tracking-[0.125em] border-teal-400 bg-transparent text-teal-400 hover:bg-teal-400 hover:text-white duration-300 ease-in-out text-[14px] flex items-center justify-center mx-auto my-0'>Download CV <AiOutlineDownload className='float-right ml-2 '/> 
                         </a>
                         </div>
                     </div>
